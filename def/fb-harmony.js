@@ -318,7 +318,7 @@ def("DeclareFunction")
 
 def("DeclareClass")
   .bases("InterfaceDeclaration")
-  .build("id");
+  .build("id", "body", "extends");
 
 def("DeclareModule")
   .bases("Statement")
